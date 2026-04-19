@@ -3,6 +3,7 @@ languageCode = "en-us"
 title = "Uppercrust Labs"
 theme = "PaperMod"
 
+
 [pagination]
   pagerSize = 5
 
@@ -19,7 +20,7 @@ theme = "PaperMod"
 
   [params.homeInfoParams]
     Title = "🚀 Welcome to Uppercrust Labs"
-    Content = "AI, Tech, and Experiments that actually matter."
+    Content = "AI, Tech, Apps and Experiments that actually matter."
 
 [menu]
   [[menu.main]]
