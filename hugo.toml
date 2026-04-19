@@ -1,0 +1,38 @@
+baseURL = "http://blogs.uppercrustlabs.com/"
+languageCode = "en-us"
+title = "Uppercrust Labs"
+theme = "PaperMod"
+
+[pagination]
+  pagerSize = 5
+
+  [params]
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowWordCount = true
+
+  author = "Uppercrust Labs"
+
+  [params.homeInfoParams]
+    Title = "🚀 Welcome to Uppercrust Labs"
+    Content = "AI, Tech, and Experiments that actually matter."
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    name = "Blog"
+    url = "/posts/"
+    weight = 2
+
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 3

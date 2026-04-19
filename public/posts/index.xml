@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on Uppercrust Labs</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on Uppercrust Labs</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 19 Apr 2026 18:56:18 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Snap1</title>
+      <link>http://localhost:1313/posts/snap1/</link>
+      <pubDate>Sun, 19 Apr 2026 18:56:18 +0530</pubDate>
+      <guid>http://localhost:1313/posts/snap1/</guid>
+      <description>&lt;p&gt;There are times when you need to extract a particular word or line from a long text. But you are unable to do that easily. I faced this issue for quite some time whenever I tried to extract something from a website. Either the website prevents me from doing that, or else my phone also complicates my work. Then while searching on the Google Play Store, I came across this &lt;strong&gt;Snaptext&lt;/strong&gt; extractor. I tried this extraction tool. And honestly, this &lt;strong&gt;text extraction software&lt;/strong&gt; is like a blessing for those times when you literally fight with your phone to extract a line. Moving on, let’s get some ideas on the same. &lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
