@@ -2,12 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://blogs.uppercrustlabs.com/categories/</loc>
+    <loc>https://mridul4c.github.io/uppercrust/categories/</loc>
   </url><url>
-    <loc>http://blogs.uppercrustlabs.com/posts/</loc>
+    <loc>https://mridul4c.github.io/uppercrust/posts/</loc>
   </url><url>
-    <loc>http://blogs.uppercrustlabs.com/tags/</loc>
+    <loc>https://mridul4c.github.io/uppercrust/tags/</loc>
   </url><url>
-    <loc>http://blogs.uppercrustlabs.com/</loc>
+    <loc>https://mridul4c.github.io/uppercrust/</loc>
   </url>
 </urlset>

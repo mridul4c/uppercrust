@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Uppercrust Labs</title>
-    <link>http://blogs.uppercrustlabs.com/</link>
+    <link>https://mridul4c.github.io/uppercrust/</link>
     <description>Recent content on Uppercrust Labs</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://blogs.uppercrustlabs.com/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://mridul4c.github.io/uppercrust/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
