@@ -1,38 +1,34 @@
-baseURL = "http://blogs.uppercrustlabs.com/"
-languageCode = "en-us"
-title = "Uppercrust Labs"
-theme = "PaperMod"
+name: Deploy Hugo site
 
-[pagination]
-  pagerSize = 5
+on:
+  push:
+    branches:
+      - main
 
-  [params]
-  defaultTheme = "auto"
-  ShowReadingTime = true
-  ShowShareButtons = true
-  ShowPostNavLinks = true
-  ShowBreadCrumbs = true
-  ShowCodeCopyButtons = true
-  ShowWordCount = true
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
-  author = "Uppercrust Labs"
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
-  [params.homeInfoParams]
-    Title = "🚀 Welcome to Uppercrust Labs"
-    Content = "AI, Tech, and Experiments that actually matter."
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
 
-[menu]
-  [[menu.main]]
-    name = "Home"
-    url = "/"
-    weight = 1
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: 'latest'
+          extended: true
 
-  [[menu.main]]
-    name = "Blog"
-    url = "/posts/"
-    weight = 2
+      - name: Build
+        run: hugo
 
-  [[menu.main]]
-    name = "About"
-    url = "/about/"
-    weight = 3
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
